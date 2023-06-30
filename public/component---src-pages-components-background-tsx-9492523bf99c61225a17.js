@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportefolio=self.webpackChunkportefolio||[]).push([[933],{8027:function(e,o,t){t.r(o);var l=t(7294);const n={backgroundColor:"#283747"};o.default=()=>l.createElement("main",{style:n})}}]);
+//# sourceMappingURL=component---src-pages-components-background-tsx-9492523bf99c61225a17.js.map
