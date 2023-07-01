@@ -1,7 +1,73 @@
 import React from "react";
-import "../../css/style.css";
+import { createGlobalStyle } from "styled-components";
 
-const About = ({ children }) => {
+const GlobalStyle = createGlobalStyle`
+.about {
+  background-color: #292929;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.about .ellipse {
+  height: 314px;
+  left: 129px;
+  object-fit: cover;
+  position: absolute;
+  top: 227px;
+  width: 313px;
+}
+
+.about .p {
+  color: #ffffff;
+  font-family: "Montserrat Alternates-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 675px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 313px;
+  width: 713px;
+}
+
+.about .about-me {
+  color: #ffffff;
+  font-family: "Montserrat Alternates-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 675px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 259px;
+  width: 204px;
+}
+
+.about .SOFTWARE-ENGINEER {
+  color: #ffffff;
+  font-family: "Montserrat Alternates-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 129px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 575px;
+  width: 369px;
+}
+
+.about .arrow {
+  height: 65px;
+  left: 664px;
+  position: absolute;
+  top: 895px;
+  width: 22px;
+}
+`;
+
+const About = ({}) => {
   return (
     <div className="about">
       <div className="div">
